@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Estilos internos</title>
+<style>
+  h2 {
+    color:red; 
+  }
+  p {
+    font-style: italic;
+  }
+  .textoMaior {
+    font-size: 1.5em;
+    font-style: normal;
+  }
+  #textoEspecial {
+    font-size: 3em;
+  }
+</style>
+</head>
+<body>
+<h1 class="textoMaior">Usando estilos internos</h1>
+<h2>Texto com estilo global h2</h2>
+<h2 style="color:green;">Texto h2 com estilo em linha</h2>
+<p>Texto com formatação global do p</p>
+<p class="textoMaior">Texto com classe</p> 
+<p>Texto com formatação global do p</p>
+<p class="textoMaior">Texto com classe</p> 
+<p class="textoMaior" id="textoEspecial">Texto com formatação global do "p" e um "id"</p>
+<p class="textoMaior">Texto com classe</p> 
+</body>
+</html>
